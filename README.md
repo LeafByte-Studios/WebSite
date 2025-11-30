@@ -4,7 +4,7 @@
 
 <div align="center">
 
-### **▶️ [Click Here to Visit the Website](https://leafbyte-studios.github.io/WebSite/)**
+### **[Click Here to Visit the Website](https://leafbyte-studios.github.io/WebSite/)**
 
 </div>
 
