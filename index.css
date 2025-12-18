@@ -242,6 +242,44 @@ div {
 
 }
 
+
+<div class="video-wrap">
+    <iframe
+        src="https://www.youtube.com/embed/Q_XqnNqVg1E"
+        title="Latest Animation"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+    </iframe>
+</div>
+
+
+.itch.io iframe {
+    padding: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    border-color: #1F60AC;
+    border-style: solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #1F60AC;
+    border-radius: 6px;
+    padding: 0;
+    max-width: 500px;
+}
+
+
+.itch.io iframe:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+}
+
+
+
+make it fit the bkacj then remove the bkack
+
 /* Wrapper fills available width */
 .video-wrap {
     width: 100%;
@@ -271,6 +309,7 @@ div {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
 }
+
 
 
 
