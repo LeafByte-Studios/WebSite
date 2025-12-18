@@ -242,18 +242,4 @@ div {
 
 }
 
-.itch-wrapper {
-    background: linear-gradient(
-      135deg,
-      #4a8f2c,
-      #7fbf2e
-); 
-    padding: 14px;
-    border-radius: 12px;
-    display: inline-block;
-}
 
-.itch-wrapper iframe {
-    border-radius: 8px;
-    border: none;
-}
