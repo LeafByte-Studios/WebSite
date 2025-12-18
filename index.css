@@ -239,4 +239,21 @@ div {
 .vid:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
+
+}
+
+.itch-wrapper {
+    background: linear-gradient(
+      135deg,
+      #4a8f2c,
+      #7fbf2e
+); 
+    padding: 14px;
+    border-radius: 12px;
+    display: inline-block;
+}
+
+.itch-wrapper iframe {
+    border-radius: 8px;
+    border: none;
 }
