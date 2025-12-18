@@ -282,8 +282,8 @@ make it fit the bkacj then remove the bkack
 
 /* Wrapper fills available width */
 .video-wrap {
-    width: 100%;
-    max-width: 100%;
+    width: 75%;
+    max-width: 75%;
     margin: 25px auto;
     aspect-ratio: 16 / 9;
     background: transparent; /* 🔥 removes black */
@@ -309,6 +309,7 @@ make it fit the bkacj then remove the bkack
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
 }
+
 
 
 
