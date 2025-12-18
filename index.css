@@ -263,5 +263,20 @@ iframe:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
 }
 
+  .frame-1920 {
+    width: 90vw;              /* scales with screen */
+    max-width: 1920px;        /* true 1920 cap */
+    aspect-ratio: 16 / 9;     /* 1920x1080 */
+    margin: auto;
+    background: #000;         /* optional */
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .frame-1920 iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+  }
 
 
