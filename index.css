@@ -264,8 +264,8 @@ iframe:hover {
 }
 
 .video-wrap {
-    width: 100%;
-    max-width: 100%;
+    width: 50%;
+    max-width: 75%;
     margin: 0 auto;
     aspect-ratio: 16 / 9; /* keeps correct video shape */
     background: #000;
@@ -276,6 +276,7 @@ iframe:hover {
     height: 100%;
     display: block;
 }
+
 
 
 
