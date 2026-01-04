@@ -26,14 +26,14 @@ body {
     justify-content: center;
     border-bottom: solid;
     border-width: 3px;
-    border-color: #1F60AC;
+    border-color: #FD8D25;
     margin: 0;
 }
 
 .Menu {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    background-color: #2b79d0;
+    background-color: #FD8D25;
     margin: 0;
 }
 
@@ -51,15 +51,15 @@ body {
     color: white;
     font-family: Lexend;
     font-weight: 600;
-    background-color:#77B318;
+    background-color:#FD8D25;
     text-align: center;
     border-radius: 24px;
-    border: solid #509124;
+    border: solid #FC5A16;
     padding: 10px;
 }
 
 .Button:hover {
-    box-shadow: #38621c 0 5px;
+    box-shadow: #FC5A16 0 5px;
     transform: translateY(-5px);
     cursor: pointer;
 }
@@ -73,15 +73,15 @@ body {
     color: white;
     font-family: Lexend;
     font-weight: 600;
-    background-color: #4773d1;
+    background-color: #FD8D25;
     text-align: center;
     border-radius: 24px;
-    border: solid #375bad;
+    border: solid #FC5A16;
     padding: 10px;
 }
 
 ._Button:hover {
-    box-shadow:  0 5px #22438c;
+    box-shadow:  0 5px #FC5A16;
     transform: translateY(-5px);
     cursor: pointer;
 }
@@ -115,10 +115,10 @@ body {
     color: white;
     font-family: Lexend;
     font-weight: 600;
-    background-color:#77B318;
+    background-color:#FD8D25;
     text-align: center;
     border: none;
-    border-bottom: solid #509124;
+    border-bottom: solid #FC5A16;
     height:50px;
     top: 50%;
     transition: 0.1s;
@@ -126,7 +126,7 @@ body {
 
 .Button_MENU:hover {
     cursor: pointer;
-    border-bottom: solid #38621c;
+    border-bottom: solid #FD8D25;
 }
 
 .Button_MENU:active {
@@ -135,8 +135,8 @@ body {
 
 .CARD {
     flex: 1 1 30%;
-    background: #2b79d0;
-    border: 3px solid #1F60AC;
+    background: #FD8D25;
+    border: 3px solid #FC5A16;
     border-radius: 6px;
     padding: 0;
     max-width: 100%;
@@ -151,8 +151,8 @@ body {
     margin-left: 10%;
     margin-right: 10%;
     flex: 1 1 30%;
-    background: #77b317;
-    border: 3px solid #509124;
+    background: #FD8D25;
+    border: 3px solid #FC5A16;
     border-radius: 6px;
     padding: 0;
     max-width: 100%;
@@ -175,7 +175,7 @@ body {
 
 hr {
     margin: 0;
-    background-color: #1F60AC;
+    background-color: #FC5A16;
     height: 3px;
     padding: 0;
     border: none;
@@ -183,7 +183,7 @@ hr {
 
 .hr {
     margin: 0;
-    background-color: #509124;
+    background-color: #FC5A16;
     height: 3px;
     padding: 0;
     border: none;
@@ -203,12 +203,12 @@ div {
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 6px;
-    border-color: #1F60AC;
+    border-color: #FC5A16;
     border-style: solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #1F60AC;
+    border: 3px solid #FC5A16;
     border-radius: 6px;
     padding: 0;
     max-width: 500px;
@@ -225,12 +225,12 @@ div {
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 6px;
-    border-color: #1F60AC;
+    border-color: #FC5A16;
     border-style: solid;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border: 3px solid #1F60AC;
+    border: 3px solid #FC5A16;
     border-radius: 6px;
     padding: 0;
     max-width: 100%;
@@ -239,63 +239,4 @@ div {
 .vid:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
-
 }
-
-
-
-.itch iframe {
-    padding: 0;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    border-radius: 6px;
-    border-color: #1F60AC;
-    border-style: solid;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border: 3px solid #1F60AC;
-    border-radius: 6px;
-    padding: 0;
-    max-width: 500px;
-}
-
-
-.itch iframe:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
-}
-
-
-.video-wrap {
-    width: 100%;
-    max-width: 100%;
-    margin: 25px auto;
-    aspect-ratio: 16 / 9;
-    background: transparent; /* removes black */
-}
-
-/* YouTube iframe */
-.video-wrap iframe {
-    width: 100%;
-    height: 100%;
-    display: block;
-
-    border: 3px solid #1F60AC;
-    border-radius: 6px;
-
-    margin: 0;
-    padding: 0;
-
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.video-wrap iframe:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.6);
-}
-
-
-
-
-
